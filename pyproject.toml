@@ -1,0 +1,15 @@
+[project]
+name = "aicu-comfyui-stability-ai-api"
+description = "This repository contains custom nodes for Stability AI API which supports SD3.0 and 3.5."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["requests==2.32.3", "configparser==7.1.0", "fal-client==0.4.1", "numpy==1.24.3", "torch==2.1.1+cu121"]
+
+[project.urls]
+Repository = "https://github.com/yhayano-ponotech/ComfyUI-Fal-API-Flux"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "aicu"
+DisplayName = "aicu-comfyui-stability-ai-api"
+Icon = ""
